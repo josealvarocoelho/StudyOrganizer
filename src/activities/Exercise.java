@@ -3,7 +3,7 @@ package activities;
 public class Exercise {
 	public enum Type {FINGERSTYLE, STRUMMING, THEME};
 	
-
+// Need to add an ID property
 	int duration;
 	int bpm;
 	String name;
@@ -20,8 +20,6 @@ public class Exercise {
 		this.type = type;
 		
 	}	
-
-	
 
 	
 	public int getDuration() {
